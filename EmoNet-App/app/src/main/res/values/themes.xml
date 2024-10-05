@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+     Base application theme.
+    <style name="Base.Theme.Emoji" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorButtonNormal">@color/background_org</item>
+    </style>
+
+<!--    <style name="Base.Theme.Emoji" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Other attributes &ndash;&gt;-->
+<!--        <item name="colorButtonNormal">@color/background_org</item>-->
+<!--    </style>-->
+<!--    -->
+    <style name="Theme.Emoji" parent="Base.Theme.Emoji" >
+        <item name="android:color">@color/background_org</item>
+        <item name="colorButtonNormal">@color/background_org</item>
+    </style>
+</resources>

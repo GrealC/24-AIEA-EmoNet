@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moudle.RecognitionFragment">
+
+    <ImageButton
+        android:id="@+id/photo_btn"
+        android:layout_width="320dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="20dp"
+
+        android:background="@mipmap/e2"
+        android:text="情绪识别"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/import_btn"
+        android:layout_width="320dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/e3"
+        android:text="相册导入"
+        app:layout_constraintEnd_toEndOf="@+id/photo_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/photo_btn"
+        app:layout_constraintTop_toBottomOf="@+id/photo_btn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="情绪识别"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

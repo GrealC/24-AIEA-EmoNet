@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- 设置圆形的颜色 -->
+    <solid android:color="@color/white"/> <!-- 红色 -->
+
+    <!-- 设置圆形的边框 -->
+    <stroke android:width="0dp" android:color="#000000"/> <!-- 黑色边框，宽度为2dp -->
+    <image android:src="@drawable/ic_launcher_background"/>
+    <corners android:radius="10dp"/>
+</shape>

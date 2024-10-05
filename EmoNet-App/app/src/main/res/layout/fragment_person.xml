@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moudle.PersonFragment">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="342dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/edit_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username_text"
+        android:layout_width="52dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="用户名: "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/uid_text"
+        android:layout_width="36dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="120dp"
+        android:text="UID: "
+        android:textColor="@color/background_org"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/username_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/username_text" />
+
+    <TextView
+        android:id="@+id/phone_text"
+        android:layout_width="52dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:text="手机号: "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/username_text"
+        app:layout_constraintStart_toStartOf="@+id/username_text"
+        app:layout_constraintTop_toBottomOf="@+id/username_text" />
+
+    <ImageButton
+        android:id="@+id/privacy_btn"
+        android:layout_width="282dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/p2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/phone_text"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageButton
+        android:id="@+id/userPolicy_btn"
+        android:layout_width="283dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:background="@mipmap/u1"
+        app:layout_constraintStart_toStartOf="@+id/privacy_btn"
+        app:layout_constraintTop_toBottomOf="@+id/privacy_btn" />
+
+    <Button
+        android:id="@+id/back_btn_3"
+        android:layout_width="94dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="56dp"
+        android:backgroundTint="@color/background_org"
+        android:text="退出登录"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/phone_value"
+        app:layout_constraintTop_toTopOf="@+id/phone_value"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/phone_value"
+        android:layout_width="157dp"
+        android:layout_height="23dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_text"
+        app:layout_constraintStart_toEndOf="@+id/phone_text" />
+
+    <TextView
+        android:id="@+id/username_value"
+        android:layout_width="128dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/username_text"
+        app:layout_constraintStart_toEndOf="@+id/username_text" />
+
+    <TextView
+        android:id="@+id/uid_value"
+        android:layout_width="134dp"
+        android:layout_height="22dp"
+        android:textColor="@color/background_org"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/uid_text"
+        app:layout_constraintStart_toEndOf="@+id/uid_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
